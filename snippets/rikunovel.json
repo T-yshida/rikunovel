@@ -1,0 +1,124 @@
+{
+    "背景": {
+        "prefix": "bg",
+        "body": [
+            "<背景:${1:1}>"
+        ],
+        "description": "背景変更"
+    },
+    "BGM": {
+        "prefix": "bgm",
+        "body": [
+            "<音楽:${1:楽曲名}>"
+        ],
+        "description": "BGM再生"
+    },
+    "BGM停止": {
+        "prefix": "bgmstop",
+        "body": [
+            "<音楽:STOP>"
+        ],
+        "description": "BGM停止"
+    },
+    "フェードイン": {
+        "prefix": "fadein",
+        "body": [
+            "<フェードイン:${1:1}>"
+        ],
+        "description": "フェードイン"
+    },
+    "フェードアウト": {
+        "prefix": "fadeout",
+        "body": [
+            "<フェードアウト:${1:1}>"
+        ],
+        "description": "フェードアウト"
+    },
+    "数値変更": {
+        "prefix": "set",
+        "body": [
+            "<値変化:${1:変数名}/${2:1}>"
+        ],
+        "description": "数値変更"
+    },
+    "bool変更": {
+        "prefix": "flag",
+        "body": [
+            "<値変化:${1:フラグ名}/${2:true}>"
+        ],
+        "description": "bool変更"
+    },
+    "立ち絵出場": {
+        "prefix": "enter",
+        "body": [
+            "<立ち絵:出場/${1:kanojo}/${2:SMILE}/${3:0,0}/${4:1}>"
+        ],
+        "description": "立ち絵出場"
+    },
+    "立ち絵移動": {
+        "prefix": "move",
+        "body": [
+            "<立ち絵:移動/${1:kanojo}/${2:0,0}/${3:1}/${4:1}>"
+        ],
+        "description": "立ち絵移動"
+    },
+    "立ち絵退場": {
+        "prefix": "exit",
+        "body": [
+            "<立ち絵:退場/${1:kanojo}>"
+        ],
+        "description": "立ち絵退場"
+    },
+    "立ち絵変更": {
+        "prefix": "face",
+        "body": [
+            "<立ち絵:立ち絵変更/${1:kanojo}/${2:SMILE}>"
+        ],
+        "description": "立ち絵変更"
+    },
+    "選択肢": {
+        "prefix": "choice",
+        "body": [
+            "<選択肢:${1:選択肢1}/${2:選択肢2}>",
+            "",
+            "<選択肢:1>{",
+            "\t$3",
+            "}",
+            "",
+            "<選択肢:2>{",
+            "\t$4",
+            "}",
+            "",
+            "<選択肢:end>"
+        ],
+        "description": "選択肢"
+    },
+    "エンド": {
+        "prefix": "endgame",
+        "body": [
+            "<エンド:${1:HOME}/${2:0}>"
+        ],
+        "description": "エンディング"
+    },
+    "特殊フラグ": {
+        "prefix": "sflag",
+        "body": [
+            "<特殊フラグ:${1:HOME}/${2:0}>"
+        ],
+        "description": "特殊エンドフラグ"
+    },
+    "名前変数": {
+        "prefix": "name",
+        "body": [
+            "{$name}"
+        ],
+        "description": "主人公名"
+    },
+    "テキスト終了": {
+        "prefix": "end",
+        "body": [
+            "end"
+        ],
+        "description": "テキスト終了"
+    }
+}
