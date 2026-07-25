@@ -227,6 +227,21 @@
 					"name": "keyword.control"
 				}
 			]
+		},
+		"ill": {
+			"patterns": [
+				{
+					"match": "<(鬱モード):([^/]+)/(0(?:\\.\\d+)?|1(?:\\.0+)?)>",
+					"captures": {
+						"1": {
+							"name": "keyword.control"
+						},
+						"2": {
+							"name": "constant.numeric"
+						}
+					}
+				}
+			]
 		}
 	}
 }
