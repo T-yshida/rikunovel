@@ -24,6 +24,40 @@ class AutoComplete {
                 "YHEART",
                 "YHSMILE",
                 "YJITOME"
+            ],
+            homekanojo: [
+                "NORMAL",
+                "SMILE",
+                "CRY",
+                "TROUBLE",
+                "ANGRY",
+                "sSMILE",
+                "SURPRISE",
+                "SHY",
+                "SAD",
+                "HEART",
+                "SERIOUS",
+                "JITOME",
+                "WINK",
+                "MADNESS",
+                "YNORMAL",
+                "YSERIOUS",
+                "YHEART",
+                "YHSMILE",
+                "YJITOME",
+                "KISS"
+            ],
+            inari: [
+                "NORMAL",
+                "SMILE",
+                "CRY",
+                "TROUBEL",
+                "ANGRY",
+                "sSMILE",
+                "SURPRISE",
+                "KID",
+                "SHY",
+                "SMUG"
             ]
         };
 
