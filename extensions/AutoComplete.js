@@ -23,7 +23,8 @@ class AutoComplete {
                 "YSERIOUS",
                 "YHEART",
                 "YHSMILE",
-                "YJITOME"
+                "YJITOME",
+                "YANGRY"
             ],
             homekanojo: [
                 "NORMAL",
@@ -45,7 +46,9 @@ class AutoComplete {
                 "YHEART",
                 "YHSMILE",
                 "YJITOME",
-                "KISS"
+                "KISS",
+                "YANGRY",
+                "HSMILE"
             ],
             inari: [
                 "NORMAL",
@@ -77,7 +80,9 @@ class AutoComplete {
                 new vscode.CompletionItem("値変化"),
                 new vscode.CompletionItem("音楽"),
                 new vscode.CompletionItem("エンド"),
-                new vscode.CompletionItem("特殊フラグ")
+                new vscode.CompletionItem("特殊フラグ"),
+                new vscode.CompletionItem("鬱モード"),
+                new vscode.CompletionItem("カメラ")
             ];
         }
 
